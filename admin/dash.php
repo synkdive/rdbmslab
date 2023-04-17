@@ -48,9 +48,9 @@ include 'constants.php'; // Update with the correct file path
       <div class="col-md-2 sidebar">
         <ul>
           <li><i class="fas fa-home"></i> Home</li>
-          <li><i class="fas fa-user"></i> Admin</li>
-          <li><i class="fas fa-tags"></i> Category</li>
-          <li><i class="fas fa-hamburger"></i> Food</li>
+          <li><a href="admin.php"><i class="fas fa-user"></i> Admin</a></li>
+          <li><a href="category.php"><i class="fas fa-tags"></i> Category</a></li>
+          <li><a href="food.php"><i class="fas fa-hamburger"></i> Food</a></li>
           <li><a href="sales.php"><i class="fas fa-chart-line"></i> Sales</a></li>
           <li><a href="logout.php"><i class="fas fa-sign-out-alt"></i> Logout</a></li>
         </ul>
