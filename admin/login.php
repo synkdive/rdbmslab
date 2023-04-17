@@ -40,7 +40,7 @@ if (isset($_POST['login'])) { // Update from 'submit' to 'login'
 <body>
     <div class="login-container">
         <h1>Inventory</h1>
-        <br> <br>
+        
         <?php 
             if(isset($_SESSION['login'])){
                 echo $_SESSION['login'];
@@ -48,7 +48,7 @@ if (isset($_POST['login'])) { // Update from 'submit' to 'login'
             }
         
         ?>
-        <br> <br>
+       
         <form action="login.php" method="post">
             <input type="text" name="username" placeholder="Username">
             <input type="password" name="password" placeholder="Password">
