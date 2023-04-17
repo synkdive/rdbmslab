@@ -22,7 +22,7 @@ if (isset($_POST['login'])) { // Update from 'submit' to 'login'
     if($count==1){
         //user exists
         $_SESSION['login']="<div class='success'>Login Successful. </div>"; 
-        header('location:'.SITEURL.'dash.php');
+        header('location:'.SITEURL.'dashboard.php');
     }
     else{
         //does not exist

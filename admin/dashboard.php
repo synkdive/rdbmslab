@@ -17,7 +17,7 @@ include 'constants.php'; // Update with the correct file path
   }
 
   ?>
-  <link rel="stylesheet" href="styles/dash.css">
+  <link rel="stylesheet" href="dashboard.css">
   <link rel="stylesheet" href="Assets/fontawesome-free-6.2.1-web/css/all.css" />
 </head>
 
@@ -59,13 +59,13 @@ include 'constants.php'; // Update with the correct file path
         <a href="#" class="nav-links"><i class="fa-solid fa-house"></i> home</a>
       </li>
       <li>
-        <a href="#" class="nav-links"><i class="fa-solid fa-user"></i> admin</a>
+        <a href="admin.php" class="nav-links"><i class="fa-solid fa-user"></i> admin</a>
       </li>
       <li>
-        <a href="#" class="nav-links"><i class="fa-solid fa-tags"></i> category</a>
+        <a href="category.php" class="nav-links"><i class="fa-solid fa-tags"></i> category</a>
       </li>
       <li>
-        <a href="#" class="nav-links"><i class="fa-solid fa-burger"></i> food</a>
+        <a href="food.php" class="nav-links"><i class="fa-solid fa-burger"></i> food</a>
       </li>
       <li>
         <a href="sales.php" class="nav-links"><i class="fa-solid fa-chart-line"></i> sales</a>
@@ -124,7 +124,7 @@ include 'constants.php'; // Update with the correct file path
 
 
   <!-- <script src="app.js"></script> -->
-  <script type="text/javascript" src="styles/app.js"></script>
+  <script type="text/javascript" src="app.js"></script>
 </body>
 
 </html>

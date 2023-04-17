@@ -1,5 +1,16 @@
 /* External CSS file for Soft UI Dashboard style */
-/* Heading style */
+/* Heading style
+ --color-primary: hsl(258, 83%, 62%);
+    --color-primary-light: #96a9cb;
+    --color-grey-1: #2e2e2e;
+    --color-grey-5: #6f6f6f;
+    --color-grey-10: #f1f5f8;
+    --color-white: #fff;
+    --ff-primary: "Catamaran", sans-serif;
+    --ff-secondary: "Nunito", sans-serif;
+    --transition: all 0.3s linear;
+    --spacing: 0.25rem;
+    --radius: 0.5rem; */
 .heading {
     text-align: center; /* Center align the heading */
     margin-bottom: 20px; /* Add margin at the bottom for spacing */
@@ -38,7 +49,7 @@ td {
 }
 
 th {
-    background-color: #007bff;
+    background-color: hsl(258, 83%, 62%);
     color: #fff;
     font-size: 16px;
 }
@@ -57,7 +68,7 @@ tr:nth-child(even) {
 
 /* Button style */
 .btn-secondary {
-    background-color: #007bff;
+    background-color: hsl(258, 83%, 62%);
     color: #fff;
     padding: 12px 24px; /* Increase padding for a larger button */
     border: none;
@@ -70,7 +81,7 @@ tr:nth-child(even) {
 
 /* Button hover effect */
 .btn-secondary:hover {
-    background-color: #0056b3;
+    background-color: hsl(258, 83%, 62%);
     transform: scale(1.05); /* Add scale effect on hover for interactivity */
 }
 

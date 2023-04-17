@@ -23,6 +23,44 @@ $result = $conn->query($sql);
 </head>
 <body>
     <h1>Admins Data</h1>
+  <!-- navbar -->
+  <!-- nav items -->
+  <nav class="navbar" id="navbar">
+    <div class="navbar-header">
+      <span class="close-btn" id="nav-close">
+        <i class="fa-solid fa-xmark"></i>
+      </span>
+    </div>
+
+    <ul class="nav-items">
+      <li>
+        <a href="#" class="nav-links"><i class="fa-solid fa-house"></i> home</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links"><i class="fa-solid fa-user"></i> admin</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links"><i class="fa-solid fa-tags"></i> category</a>
+      </li>
+      <li>
+        <a href="#" class="nav-links"><i class="fa-solid fa-burger"></i> food</a>
+      </li>
+      <li>
+        <a href="sales.php" class="nav-links"><i class="fa-solid fa-chart-line"></i> sales</a>
+      </li>
+      <li>
+        <a href="logout.php" class="nav-links"><i class="fa-solid fa-arrow-right-from-bracket"></i> logout</a>
+      </li>
+    </ul>
+  </nav>
+
+
+  <!-- nav button -->
+  <span class="nav-btn" id="nav-btn">
+    <i class="fa-solid fa-bars"></i>
+  </span>
+﻿
+
     <div class="table-container"> 
     <table>
         <tr>
